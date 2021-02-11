@@ -645,9 +645,6 @@ textarea.w-select {
   }
 }
 @media screen and (max-width: 767px) {
-  .w-iframe{
-    width: 50%;
-  }
   .w-hidden-main {
     display: inherit !important;
   }
@@ -705,9 +702,6 @@ textarea.w-select {
   }
 }
 @media screen and (max-width: 479px) {
-  .w-iframe{
-    width: 50%;
-  }
   .w-container {
     max-width: none;
   }
