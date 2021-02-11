@@ -285,11 +285,6 @@ a {
 }
 
 .c-hero__image {
-  position: static;
-  left: 0%;
-  top: auto;
-  right: 0%;
-  bottom: 0%;
   z-index: 1;
   margin-top: -101px;
   margin-right: auto;
@@ -750,7 +745,7 @@ a {
 }
 
 .c-image.how {
-  height: 400px;
+  height: 300px;
 }
 
 .c-h2.section {
@@ -998,8 +993,8 @@ a {
 
 .c-story__image {
   width: 45%;
-  padding-right: 40px;
-  padding-left: 40px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .c-slider {
@@ -2037,6 +2032,20 @@ a {
     width: 100%;
   }
 
+  .c-story__image {
+    width: 70%;
+    margin-top: -30px;
+    margin-bottom: -30px;
+  }
+
+  .c-story__image.top-margin {
+    margin-top: -55px;
+  }
+
+  .c-story__image.bottom-margin {
+    margin-bottom: -20px;
+  }
+
   .c-contact-grid {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
@@ -2115,6 +2124,10 @@ a {
     padding-left: 20px;
   }
 
+  .c-hero__image {
+    margin-top: -15px;
+  }
+
   .c-button.hero {
     width: 100%;
   }
@@ -2140,7 +2153,8 @@ a {
   }
 
   .c-student-tutor {
-    margin-top: -30px;
+    margin-top: -60px;
+    margin-bottom: 10px;
   }
 
   .c-student-tutor.bottom {
@@ -2154,7 +2168,7 @@ a {
   }
 
   .c-image.how {
-    height: 150px;
+    height: 250px;
     margin-top: 9px;
     margin-bottom: 9px;
   }
@@ -2172,6 +2186,10 @@ a {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+  }
+
+  .c-story-copy__element {
+    margin-top: -15px;
   }
 
   .c-story__image {
